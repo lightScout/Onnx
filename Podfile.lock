@@ -1,0 +1,42 @@
+PODS:
+  - composeApp (1.0)
+  - MediaPipeTasksGenAI (0.10.18):
+    - MediaPipeTasksGenAIC (= 0.10.18)
+  - MediaPipeTasksGenAIC (0.10.18)
+  - TensorFlowLiteC (2.17.0):
+    - TensorFlowLiteC/Core (= 2.17.0)
+  - TensorFlowLiteC/Core (2.17.0)
+  - TensorFlowLiteSwift (2.17.0):
+    - TensorFlowLiteSwift/Core (= 2.17.0)
+  - TensorFlowLiteSwift/Core (2.17.0):
+    - TensorFlowLiteC (= 2.17.0)
+    - TensorFlowLiteSwift/Privacy (= 2.17.0)
+  - TensorFlowLiteSwift/Privacy (2.17.0)
+
+DEPENDENCIES:
+  - composeApp (from `../composeApp`)
+  - MediaPipeTasksGenAI
+  - MediaPipeTasksGenAIC
+  - TensorFlowLiteSwift
+
+SPEC REPOS:
+  trunk:
+    - MediaPipeTasksGenAI
+    - MediaPipeTasksGenAIC
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  composeApp:
+    :path: "../composeApp"
+
+SPEC CHECKSUMS:
+  composeApp: 069d8e762dada3340fa180bba7c70881cdfb6b6c
+  MediaPipeTasksGenAI: e74c38e69e5cb385efc905d14ae7e9af365e69a7
+  MediaPipeTasksGenAIC: 3f6db8973f1351e9258d294113f05e42e7f9eef1
+  TensorFlowLiteC: eac6d689a8d391d1b202dc59e3d9165ba64aaf73
+  TensorFlowLiteSwift: 723fe42222815e72490c79feeff05305530de393
+
+PODFILE CHECKSUM: 81601f8e175c816407cd27e5ffd69adaa24bf510
+
+COCOAPODS: 1.16.2
